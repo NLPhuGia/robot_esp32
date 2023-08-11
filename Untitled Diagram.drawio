@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T08:58:43.022Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="0kbaU7ZnwZGNeI3NK1jz" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T11:31:06.062Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="1Q8Zu7gOrsrwpTYeHw07" version="21.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1750" dy="890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
+    <mxGraphModel dx="1235" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3000" pageHeight="3000" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -127,7 +127,7 @@
         <mxCell id="Kg9cEvBB_XG9NirIX-OQ-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Kg9cEvBB_XG9NirIX-OQ-118" target="Kg9cEvBB_XG9NirIX-OQ-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Kg9cEvBB_XG9NirIX-OQ-118" value="Khởi động Robot , lấy thông tin của Robot từ EEPROM" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Kg9cEvBB_XG9NirIX-OQ-118" value="Khởi động Robot , lấy thông tin của Robot từ eeprom" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="531.29" y="440" width="144.61" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Kg9cEvBB_XG9NirIX-OQ-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Kg9cEvBB_XG9NirIX-OQ-143" target="Kg9cEvBB_XG9NirIX-OQ-146">
@@ -196,7 +196,7 @@
         <mxCell id="Kg9cEvBB_XG9NirIX-OQ-172" value="Kiểm tra kết nối &lt;br&gt;module WiFi" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="528.6" y="880" width="150" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Kg9cEvBB_XG9NirIX-OQ-175" value="Kiểm tra kết nối sever&lt;br&gt;thông qua Websocket&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Kg9cEvBB_XG9NirIX-OQ-175" value="Kiểm tra kết nối server thông qua Websocket" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="528.6" y="1040" width="150" height="110" as="geometry" />
         </mxCell>
         <mxCell id="Kg9cEvBB_XG9NirIX-OQ-178" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Kg9cEvBB_XG9NirIX-OQ-172" target="Kg9cEvBB_XG9NirIX-OQ-175">
@@ -282,8 +282,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Kg9cEvBB_XG9NirIX-OQ-205" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Kg9cEvBB_XG9NirIX-OQ-201" target="Kg9cEvBB_XG9NirIX-OQ-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Kg9cEvBB_XG9NirIX-OQ-201" value="Gửi dữ liệu thông tin, trạng thái, nhiệm vụ của Robot về server&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="543.6" y="1470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kg9cEvBB_XG9NirIX-OQ-204" value="KẾT THÚC&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="532.3" y="1580" width="143.6" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
